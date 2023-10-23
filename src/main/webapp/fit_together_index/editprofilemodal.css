@@ -1,0 +1,81 @@
+  @charset "UTF-8";
+  .modal-dialog-editproflie {
+      max-width: 800px;
+    }
+
+    .modal-content-editproflie {
+      width: 100%;
+    }
+
+    .modal-body .row {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    .modal-body .col-4 {
+      flex-basis: 30%;
+    }
+
+    .modal-body .col-8 {
+      flex-basis: 70%;
+    }
+
+    .profile-picture {
+      width: 60%;
+      margin: 0 auto 10px auto;
+      border-radius: 50%;
+
+    }
+
+    .avt {
+      text-align: center;
+      border-right: 1px solid white;
+    }
+    
+    
+    
+    #togglePassword{
+		color: white;
+		padding: 3px;
+	}
+
+    .modal-content-editprofile {
+      background-color: #3c3b3b;
+      color: white;
+    }
+
+    .modal-footer-editprofile button.close {
+      height: 40px;
+      width: 100px;
+      background-color: rgb(70, 70, 70);
+      border: none;
+      color: #fff;
+      border-radius: 100px;
+      transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    }
+
+    .modal-footer-editprofile button.saveprofile {
+      height: 40px;
+      width: 100px;
+      background-color: #087428;
+      border: none;
+      color: #fff;
+      border-radius: 100px;
+      transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    }
+
+    .modal-footer-editprofile button.close:hover {
+      transform: scale(1.1);
+      background-color: rgb(90, 89, 89);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .modal-footer-editprofile button.saveprofile:hover {
+      transform: scale(1.1);
+      background-color: #099332;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .modal-footer-editprofile button:active {
+      transform: scale(0.9);
+    }
